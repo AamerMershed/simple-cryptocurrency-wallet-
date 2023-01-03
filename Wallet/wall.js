@@ -25,4 +25,4 @@ console.log(wallet.getBalance()); // 100
 wallet.deposit(50);
 console.log(wallet.getBalance()); // 150
 wallet.withdraw(200); // Insufficient funds
-console.log(wallet.getBalance()); // 150
+
