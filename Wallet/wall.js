@@ -24,6 +24,6 @@ const wallet = new Wallet(100);
 console.log(wallet.getBalance()); // 100
 wallet.deposit(50);
 console.log(wallet.getBalance()); // 150
-wallet.withdraw(20); // Insufficient funds
+wallet.withdraw(200); // Insufficient funds
 console.log(wallet.getBalance()); // 150
 
