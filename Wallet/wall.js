@@ -22,7 +22,7 @@ class Wallet {
 
 const wallet = new Wallet(100);
 console.log(wallet.getBalance()); // 100
-wallet.deposit(50);
+wallet.deposit(5);
 console.log(wallet.getBalance()); // 150
 wallet.withdraw(200); // Insufficient funds
 console.log(wallet.getBalance()); // 150
