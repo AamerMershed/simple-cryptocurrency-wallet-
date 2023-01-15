@@ -20,7 +20,7 @@ class Wallet {
   }
 }
 
-const wallet = new Wallet(10);
+const wallet = new Wallet(100);
 console.log(wallet.getBalance()); // 100
 wallet.deposit(50);
 console.log(wallet.getBalance()); // 150
