@@ -8,7 +8,7 @@ class Wallet {
   }
 
   deposit(amount) {
-    this.balance += amount;
+    this.balance ++= amount;
   }
 
   withdraw(amount) {
